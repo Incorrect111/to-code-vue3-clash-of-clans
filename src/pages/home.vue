@@ -1,7 +1,7 @@
 <template>
   <h1>hello home</h1>
   <div class="card__wrapper" v-for="item in items" :key="item.id" >
-  <Card />
+  <Card class="card" />
   </div>
 </template>
 
