@@ -1,7 +1,9 @@
 <template>
   <h1>hello home</h1>
-  <div class="card__wrapper" v-for="item in items" :key="item.id" >
-  <Card class="card" />
+  <div class="card__wrapper" v-for="item in items" :key="item.id">
+    <Card :item="item" class="card">
+      {{ item.descr }}
+    </Card>
   </div>
 </template>
 
