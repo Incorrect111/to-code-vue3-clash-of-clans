@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import items from '@/seeders/items.json'
+import items from '@/seeders/items.js'
 import Card from '@/components/UI/Card.vue'
 export default {
   components: { Card },

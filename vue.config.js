@@ -4,4 +4,5 @@ module.exports = defineConfig({
 	publicPath: '/',
 	productionSourceMap: false,
 	assetsDir: 'assets',
+	filenameHashing: false
 })
