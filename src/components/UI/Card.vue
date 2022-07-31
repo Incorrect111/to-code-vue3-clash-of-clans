@@ -6,14 +6,17 @@
     <span class="card-name">{{ item.level }} lvl</span>
     <span class="card-title">{{ item.title }}</span>
     <div class="card-body">
-      <slot></slot>
+      <slot name="body"></slot>
 
-      <router-link v-if="item.link" class="link"
-      style="display:block"
-       :to="item.link"
+      <router-link
+        v-if="item.link"
+        class="link"
+        style="display: block; margin-top: 16px"
+        :to="item.link"
         >See more</router-link
       >
     </div>
+    <slot name="footer"></slot>
   </div>
 </template>
 
