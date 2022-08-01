@@ -14,5 +14,10 @@ export const links = [
     alias: 'about',
     url: '/about'
   },
+  // {
+  //   title: 'Page not found!',
+  //   alias: '404',
+  //   url: 'notFound'
+  // }
 
 ]

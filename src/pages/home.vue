@@ -1,5 +1,5 @@
 <template>
-  <carousel :settings="settings" :breakpoints="breakPoints">
+  <carousel :settings="settings">
     <slide class="card__wrapper" v-for="item in items" :key="item.id">
       <Card :item="item" class="card">
         <template v-slot:body>
@@ -39,6 +39,7 @@ export default {
   data() {
     return {
       items: items,
+      //carousel
       settings: {
         itemsToShow: 1,
         wrapAround: true,
