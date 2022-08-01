@@ -3,7 +3,9 @@
     <Header />
     <div class="wrapper-content">
       <div class="container">
+        <div class="view-sm isCenter">
         <router-view />
+        </div>
       </div>
     </div>
     <Footer />
