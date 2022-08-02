@@ -13,6 +13,7 @@
         class="link"
         style="display: block; margin-top: 16px"
         :to="item.link"
+        
         >See more</router-link
       >
     </div>
