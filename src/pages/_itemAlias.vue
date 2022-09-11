@@ -28,7 +28,6 @@ export default {
   },
 
   created() {
-    te
     const alias = this.$route.params.itemAlias
     const item = items.find(item => item.alias === alias)
 
